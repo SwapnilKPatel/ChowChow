@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41439E8D2AB710BA00751797 /* ChowChowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439E8C2AB710BA00751797 /* ChowChowApp.swift */; };
+		41439E8F2AB710BA00751797 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439E8E2AB710BA00751797 /* ContentView.swift */; };
+		41439E912AB710BB00751797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41439E902AB710BB00751797 /* Assets.xcassets */; };
+		41439E952AB710BB00751797 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41439E942AB710BB00751797 /* Preview Assets.xcassets */; };
+		41439EA12AB711E200751797 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439EA02AB711E200751797 /* FoodModel.swift */; };
+		41439EA32AB7122300751797 /* RestaurantInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439EA22AB7122300751797 /* RestaurantInfo.swift */; };
+		41439EA52AB7141200751797 /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439EA42AB7141200751797 /* FoodData.swift */; };
+		41439EA72AB7178A00751797 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439EA62AB7178A00751797 /* HomeView.swift */; };
+		41439EA92AB717A800751797 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439EA82AB717A800751797 /* HomeViewModel.swift */; };
+		41439EAB2AB717FD00751797 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439EAA2AB717FD00751797 /* DetailsView.swift */; };
+		41439EAD2AB7183800751797 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439EAC2AB7183800751797 /* DetailsViewModel.swift */; };
+		41439EB02AB718CB00751797 /* UIFont+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439EAF2AB718CB00751797 /* UIFont+Additions.swift */; };
+		41439EB42AB7196100751797 /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41439EB32AB7196100751797 /* NotoSans-Medium.ttf */; };
+		41439EB62AB7196800751797 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41439EB52AB7196800751797 /* NotoSans-Regular.ttf */; };
+		41439EB82AB7197400751797 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41439EB72AB7197400751797 /* NotoSans-Bold.ttf */; };
+		41439EBA2AB71B4900751797 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439EB92AB71B4900751797 /* UIImage+Extension.swift */; };
+		41439EBC2AB71E0F00751797 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41439EBB2AB71E0F00751797 /* Color+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41439E892AB710BA00751797 /* ChowChow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChowChow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41439E8C2AB710BA00751797 /* ChowChowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChowChowApp.swift; sourceTree = "<group>"; };
+		41439E8E2AB710BA00751797 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41439E902AB710BB00751797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41439E922AB710BB00751797 /* ChowChow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChowChow.entitlements; sourceTree = "<group>"; };
+		41439E942AB710BB00751797 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41439EA02AB711E200751797 /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
+		41439EA22AB7122300751797 /* RestaurantInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInfo.swift; sourceTree = "<group>"; };
+		41439EA42AB7141200751797 /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
+		41439EA62AB7178A00751797 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		41439EA82AB717A800751797 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		41439EAA2AB717FD00751797 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		41439EAC2AB7183800751797 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		41439EAF2AB718CB00751797 /* UIFont+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Additions.swift"; sourceTree = "<group>"; };
+		41439EB32AB7196100751797 /* NotoSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Medium.ttf"; sourceTree = "<group>"; };
+		41439EB52AB7196800751797 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		41439EB72AB7197400751797 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		41439EB92AB71B4900751797 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		41439EBB2AB71E0F00751797 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		41439EC12AB7372700751797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41439E862AB710BA00751797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41439E802AB710BA00751797 = {
+			isa = PBXGroup;
+			children = (
+				41439E8B2AB710BA00751797 /* ChowChow */,
+				41439E8A2AB710BA00751797 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41439E8A2AB710BA00751797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41439E892AB710BA00751797 /* ChowChow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41439E8B2AB710BA00751797 /* ChowChow */ = {
+			isa = PBXGroup;
+			children = (
+				41439EC12AB7372700751797 /* Info.plist */,
+				41439EB12AB7194D00751797 /* Resourses */,
+				41439EAE2AB718BE00751797 /* Extensions */,
+				41439E9E2AB7117E00751797 /* Home */,
+				41439E9B2AB7116300751797 /* Details */,
+				41439E9D2AB7117600751797 /* Model */,
+				41439E9C2AB7116C00751797 /* Data */,
+				41439E8C2AB710BA00751797 /* ChowChowApp.swift */,
+				41439E8E2AB710BA00751797 /* ContentView.swift */,
+				41439E902AB710BB00751797 /* Assets.xcassets */,
+				41439E922AB710BB00751797 /* ChowChow.entitlements */,
+				41439E932AB710BB00751797 /* Preview Content */,
+			);
+			path = ChowChow;
+			sourceTree = "<group>";
+		};
+		41439E932AB710BB00751797 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41439E942AB710BB00751797 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41439E9B2AB7116300751797 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				41439EAA2AB717FD00751797 /* DetailsView.swift */,
+				41439EAC2AB7183800751797 /* DetailsViewModel.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		41439E9C2AB7116C00751797 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				41439EA42AB7141200751797 /* FoodData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		41439E9D2AB7117600751797 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41439EA02AB711E200751797 /* FoodModel.swift */,
+				41439EA22AB7122300751797 /* RestaurantInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41439E9E2AB7117E00751797 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				41439EA62AB7178A00751797 /* HomeView.swift */,
+				41439EA82AB717A800751797 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		41439EAE2AB718BE00751797 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				41439EAF2AB718CB00751797 /* UIFont+Additions.swift */,
+				41439EB92AB71B4900751797 /* UIImage+Extension.swift */,
+				41439EBB2AB71E0F00751797 /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		41439EB12AB7194D00751797 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				41439EB22AB7195300751797 /* Font */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		41439EB22AB7195300751797 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				41439EB72AB7197400751797 /* NotoSans-Bold.ttf */,
+				41439EB52AB7196800751797 /* NotoSans-Regular.ttf */,
+				41439EB32AB7196100751797 /* NotoSans-Medium.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41439E882AB710BA00751797 /* ChowChow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41439E982AB710BB00751797 /* Build configuration list for PBXNativeTarget "ChowChow" */;
+			buildPhases = (
+				41439E852AB710BA00751797 /* Sources */,
+				41439E862AB710BA00751797 /* Frameworks */,
+				41439E872AB710BA00751797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChowChow;
+			productName = ChowChow;
+			productReference = 41439E892AB710BA00751797 /* ChowChow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41439E812AB710BA00751797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					41439E882AB710BA00751797 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 41439E842AB710BA00751797 /* Build configuration list for PBXProject "ChowChow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41439E802AB710BA00751797;
+			productRefGroup = 41439E8A2AB710BA00751797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41439E882AB710BA00751797 /* ChowChow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41439E872AB710BA00751797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41439EB62AB7196800751797 /* NotoSans-Regular.ttf in Resources */,
+				41439E952AB710BB00751797 /* Preview Assets.xcassets in Resources */,
+				41439E912AB710BB00751797 /* Assets.xcassets in Resources */,
+				41439EB82AB7197400751797 /* NotoSans-Bold.ttf in Resources */,
+				41439EB42AB7196100751797 /* NotoSans-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41439E852AB710BA00751797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41439EA52AB7141200751797 /* FoodData.swift in Sources */,
+				41439EBC2AB71E0F00751797 /* Color+Extension.swift in Sources */,
+				41439EA72AB7178A00751797 /* HomeView.swift in Sources */,
+				41439EA92AB717A800751797 /* HomeViewModel.swift in Sources */,
+				41439EA32AB7122300751797 /* RestaurantInfo.swift in Sources */,
+				41439EA12AB711E200751797 /* FoodModel.swift in Sources */,
+				41439EB02AB718CB00751797 /* UIFont+Additions.swift in Sources */,
+				41439EAB2AB717FD00751797 /* DetailsView.swift in Sources */,
+				41439E8F2AB710BA00751797 /* ContentView.swift in Sources */,
+				41439EAD2AB7183800751797 /* DetailsViewModel.swift in Sources */,
+				41439EBA2AB71B4900751797 /* UIImage+Extension.swift in Sources */,
+				41439E8D2AB710BA00751797 /* ChowChowApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		41439E962AB710BB00751797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41439E972AB710BB00751797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		41439E992AB710BB00751797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChowChow/ChowChow.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChowChow/Preview Content\"";
+				DEVELOPMENT_TEAM = X8CATK437G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChowChow/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swapnil.info.ChowChow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41439E9A2AB710BB00751797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChowChow/ChowChow.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChowChow/Preview Content\"";
+				DEVELOPMENT_TEAM = X8CATK437G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChowChow/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swapnil.info.ChowChow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41439E842AB710BA00751797 /* Build configuration list for PBXProject "ChowChow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41439E962AB710BB00751797 /* Debug */,
+				41439E972AB710BB00751797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41439E982AB710BB00751797 /* Build configuration list for PBXNativeTarget "ChowChow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41439E992AB710BB00751797 /* Debug */,
+				41439E9A2AB710BB00751797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41439E812AB710BA00751797 /* Project object */;
+}
